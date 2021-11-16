@@ -213,7 +213,7 @@ h1 {
 footer {
   display: grid;
   align-items: center;
-  padding: 5rem 5rem 5rem 0rem;
+  padding: 5rem;
 }
 
 footer > p {
@@ -434,27 +434,27 @@ video {
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-  @media only screen and (min-width: 90em) {
+    @media only screen and (min-width: 90em) {
 
-    ul {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+      ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
 
-    .img-grid {
-      margin-left: 10rem;
-      margin-right: 10rem;
-    }
+      .img-grid {
+        margin-left: 10rem;
+        margin-right: 10rem;
+      }
 
-    .connect {
-      margin-left: 10rem;
-    }
+      .connect {
+        margin-left: 10rem;
+      }
 
-    .social-icons {
-      margin-left: 10rem;
-    }
+      .social-icons {
+        margin-left: 10rem;
+      }
 
-    .card-content {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+      .card-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
