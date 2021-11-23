@@ -219,6 +219,10 @@ footer {
   grid-row: 1;
 }
 
+.slogan {
+  font-style: italic;
+}
+
 .contact a {
   grid-column: 1;
   grid-row: 2;
