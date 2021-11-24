@@ -2,12 +2,34 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Motion</title>
+  <title>Home</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;0,700;1,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@600;700&display=swap" rel="stylesheet">
+
+  <style>
+  #explainervideo {
+    width: 960px;
+    height: 540px;
+    overflow-y: auto;
+    overflow-x: auto;
+    resize: both;
+  }
+
+  #descriptiveword {
+    width: 960px;
+    height: 540px;
+    overflow-y: auto;
+    overflow-x: auto;
+    resize: both;
+  }
+
+  </style>
 </head>
+
 <body>
 
   <ul class="skip-links">
@@ -34,48 +56,66 @@
     <section>
       <div class="motion-project1">
         <h2>Explainer Video</h2>
-        <video class="explainervideo" controls>
-          <source src="videos/explainer-video.mp4" type="video/mp4">
-          </video>
-          <p class="margin-text">####</p>
-        </div>
-      </section>
 
-      <section>
-        <div class="motion-project2">
-          <h2>Descriptive Word</h2>
-          <video class="descriptiveword" controls>
-            <source src="videos/descriptive-word.mp4" type="video/mp4">
-            </video>
-            <p class="margin-text">###</p>
-          </div>
-        </section>
+        <iframe src="https://drive.google.com/file/d/10H7_2RvdqA7N1kFOlHWvKh3zbgt35bqz/preview" id="explainervideo"></iframe>
+        <script>
+        var frame = document.getElementById("explainervideo");
+        frame.onload = function() {
+          frame.style.width  =
+          frame.contentWindow.document.body.scrollWidth+'px';
+          frame.style.height =
+          frame.contentWindow.document.body.scrollHeight + 'px';
+        }
+        </script>
 
-        <section class="contact">
-          <p>Any thoughts on my work? Please share!</p>
-          <img class="footer-turtle" src="images/footer-turtle.svg" alt="turtle illustration by Inas Kasem">
-          <div>
-            <a class="dark-btn" href="contact.html">Contact</a>
-          </div>
-        </section>
+        <p class="margin-text">####</p>
+      </div>
+    </section>
 
-      </main>
+    <section>
+      <div class="motion-project2">
+        <h2>Descriptive Word</h2>
+        <iframe src="https://drive.google.com/file/d/1KQnV-GehZAuJVC_SYnx_Q24NA1vMFA8j/preview" id="descriptiveword"></iframe>
+        <script>
+        var frame = document.getElementById("descriptiveword");
+        frame.onload = function() {
+          frame.style.width  =
+          frame.contentWindow.document.body.scrollWidth+'px';
+          frame.style.height =
+          frame.contentWindow.document.body.scrollHeight + 'px';
+        }
+        </script>
+        <p class="margin-text">###</p>
+      </div>
+    </section>
 
-      <footer role="contentinfo" id="contentinfo" tabindex="0">
-        <div class="logo">
-          <img class="logo-32-footer" src="images/logo-32.svg" role="presentation" alt="ik designs logo">
-          <p>ik Designs</p>
-        </div>
-        <div class="footer-ul-wrapper">
-          <ul class="footer-ul">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="branding.html">Branding</a></li>
-            <li><a href="motion.html">Motion</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-          <p class="footer-text">© ik Designs</p>
-        </div>
-      </footer>
+    <section class="contact">
+      <p>Any thoughts on my work?</p>
+      <img class="footer-turtle" src="images/footer-turtle.svg" alt="turtle illustration by Inas Kasem">
+      <div>
+        <a class="dark-btn" href="contact.html">Get In Touch!</a>
+      </div>
+    </section>
 
-    </body>
-    </html>
+  </main>
+
+  <footer role="contentinfo" id="contentinfo" tabindex="0">
+    <div class="logo">
+      <img class="logo-32-footer" src="images/logo-32.svg" alt="logo of ik designs">
+      <p>ik Designs</p>
+    </div>
+    <div class="footer-ul-wrapper">
+      <ul class="footer-ul">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="branding.html">Branding</a></li>
+        <li><a href="motion.html">Motion</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="copy-rights">
+      <p class="rights">© ik Designs</p>
+    </div>
+  </footer>
+
+</body>
+</html>

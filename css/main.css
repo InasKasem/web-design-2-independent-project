@@ -25,13 +25,6 @@ img {
   width: 100%;
 }
 
-video {
-  display: block;
-  width: 100%;
-  margin-left: auto;
-  margin-bottom: auto;
-}
-
 body {
   margin: 0;
 }
@@ -72,7 +65,6 @@ p {
 }
 
 .footer-turtle {
-  width: 12rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -96,20 +88,9 @@ a:hover {
   padding: .5em 1em .6em;
 }
 
-.one {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 2rem;
-  text-align: center;
-  padding-bottom: 0;
-}
-
-.two {
-  margin-bottom: 1.5rem;
-  padding: 2rem;
-  padding-top: 0;
-  font-size: 1.2rem;
+iframe {
+  margin-left: 1rem;
+  border-style: none;
 }
 
 section .banner {
@@ -124,10 +105,12 @@ a {
 
 .dark-btn {
   border-radius: .3rem;
+  border-color: #77a4cd;
   padding: .5em 1em .6em;
   color: #fff;
   background-color: #0f1f26;
   font-size: 1rem;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 8);
 }
 
 .banner {
@@ -157,7 +140,7 @@ h2 {
 }
 
 .margin-text {
-  padding: 0 1rem;
+  padding: 3rem 0 0 1rem;
   margin-bottom: 2rem;
 }
 
@@ -185,13 +168,27 @@ footer {
   margin: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   column-gap: 1rem;
-  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.copy-rights {
+  position: relative;
+  margin-top: 4rem;
+}
+
+.rights {
+  position: absolute;
+  bottom: 0;
+  font-size: .6rem;
+  padding-left: 1rem;
 }
 
 .logo {
   grid-column: 1;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 .footer-text {
@@ -221,6 +218,7 @@ footer {
 
 .slogan {
   font-style: italic;
+  color: #0d4d8e;
 }
 
 .contact a {
@@ -258,7 +256,21 @@ footer {
   width: 24rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.branding-project2 .stationary3 {
+  width: 24rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .5rem;
+}
+
+.branding-project2 .stationary4 {
+  width: 24rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .5rem;
 }
 
 .branding-project3 .packaging1 {
@@ -292,6 +304,7 @@ footer {
 .about {
   background-color: #77a4cd;
   color: #0f1f26;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 8);
 }
 
 legend {
