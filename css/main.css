@@ -101,9 +101,13 @@ section .banner {
 a {
   text-decoration: none;
   color: #fff;
+  text-align: center;
+  vertical-align: middle;
+
 }
 
 .dark-btn {
+  display: inline-block;
   border-radius: .3rem;
   border-color: #77a4cd;
   padding: .5em 1em .6em;
