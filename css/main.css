@@ -67,19 +67,25 @@ p {
 .footer-turtle {
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+}
+
+.contact-turtle {
+  width: 12rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav ul {
   list-style-type: none;
   font-family: Raleway, sans-serif;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   max-width: 28rem;
   padding-top: 5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
   border-radius: .3rem;
 }
 
@@ -87,11 +93,6 @@ a:hover {
   background-color: #77a4cd;
   border-radius: .3rem;
   padding: .5em 1em .6em;
-}
-
-iframe {
-  margin-left: 1rem;
-  border-style: none;
 }
 
 section .banner {
@@ -146,7 +147,7 @@ h2 {
 
 .about-text {
   padding: 0 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: .5rem;
 }
 
 .footer-ul-wrapper .footer-ul {
@@ -217,7 +218,7 @@ footer {
 }
 
 .slogan {
-  font-style: italic;
+  font-family: "Dancing Script", cursive;
   color: #0d4d8e;
 }
 
@@ -303,6 +304,7 @@ footer {
 
 .about {
   background-color: #77a4cd;
+  padding-bottom: 2rem;
   color: #0f1f26;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 8);
 }
